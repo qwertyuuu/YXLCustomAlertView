@@ -1,0 +1,6 @@
+framework module YXLCustomAlertView {
+  umbrella header "YXLCustomAlertView-umbrella.h"
+
+  export *
+  module * { export * }
+}

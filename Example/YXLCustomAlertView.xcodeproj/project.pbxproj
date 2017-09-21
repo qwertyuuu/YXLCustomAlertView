@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1992C6A5A90D8DCE0F0A539B /* Pods_YXLCustomAlertView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160A41F14432A08D5B500AE0 /* Pods_YXLCustomAlertView_Example.framework */; };
+		486BFF1B1F735BF6004566FF /* CustomAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 486BFF1A1F735BF6004566FF /* CustomAlert.m */; };
+		486BFF1F1F735DD2004566FF /* YXLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 486BFF1E1F735DD2004566FF /* YXLAppDelegate.m */; };
+		486BFF231F735DD8004566FF /* YXLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 486BFF221F735DD8004566FF /* YXLViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* YXLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* YXLAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* YXLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* YXLViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -40,6 +41,12 @@
 		160A41F14432A08D5B500AE0 /* Pods_YXLCustomAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YXLCustomAlertView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AEB2CC1FE07D5B28D1F95B8 /* Pods-YXLCustomAlertView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXLCustomAlertView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YXLCustomAlertView_Tests/Pods-YXLCustomAlertView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		30DC48C5CB3AFDA3A9639FDA /* Pods-YXLCustomAlertView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXLCustomAlertView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YXLCustomAlertView_Example/Pods-YXLCustomAlertView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		486BFF191F735BF6004566FF /* CustomAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlert.h; sourceTree = "<group>"; };
+		486BFF1A1F735BF6004566FF /* CustomAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlert.m; sourceTree = "<group>"; };
+		486BFF1D1F735DD2004566FF /* YXLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXLAppDelegate.h; sourceTree = "<group>"; };
+		486BFF1E1F735DD2004566FF /* YXLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXLAppDelegate.m; sourceTree = "<group>"; };
+		486BFF211F735DD8004566FF /* YXLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXLViewController.h; sourceTree = "<group>"; };
+		486BFF221F735DD8004566FF /* YXLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXLViewController.m; sourceTree = "<group>"; };
 		511F9E44E62391D19BA2E5E3 /* Pods_YXLCustomAlertView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YXLCustomAlertView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* YXLCustomAlertView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXLCustomAlertView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -49,10 +56,6 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* YXLCustomAlertView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YXLCustomAlertView-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* YXLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXLAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* YXLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXLAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* YXLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXLViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* YXLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXLViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* YXLCustomAlertView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXLCustomAlertView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -60,13 +63,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6C2E29E05A3FDF3189E0104C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6C2E29E05A3FDF3189E0104C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7343927E341010411235BCF8 /* YXLCustomAlertView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YXLCustomAlertView.podspec; path = ../YXLCustomAlertView.podspec; sourceTree = "<group>"; };
+		7343927E341010411235BCF8 /* YXLCustomAlertView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YXLCustomAlertView.podspec; path = ../YXLCustomAlertView.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF31056BD6B9DDC63256679F /* Pods-YXLCustomAlertView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXLCustomAlertView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YXLCustomAlertView_Tests/Pods-YXLCustomAlertView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CF42493E4EDC5F97F86EA0B5 /* Pods-YXLCustomAlertView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXLCustomAlertView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YXLCustomAlertView_Example/Pods-YXLCustomAlertView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EED95BA26798BF2D78A5C9D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EED95BA26798BF2D78A5C9D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		486BFF181F735BF6004566FF /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				486BFF191F735BF6004566FF /* CustomAlert.h */,
+				486BFF1A1F735BF6004566FF /* CustomAlert.m */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		486BFF1C1F735DD2004566FF /* main */ = {
+			isa = PBXGroup;
+			children = (
+				486BFF1D1F735DD2004566FF /* YXLAppDelegate.h */,
+				486BFF1E1F735DD2004566FF /* YXLAppDelegate.m */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		486BFF201F735DD8004566FF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				486BFF211F735DD8004566FF /* YXLViewController.h */,
+				486BFF221F735DD8004566FF /* YXLViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		486BFF241F735DDE004566FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,11 +169,11 @@
 		6003F593195388D20070C39A /* Example for YXLCustomAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* YXLAppDelegate.h */,
-				6003F59D195388D20070C39A /* YXLAppDelegate.m */,
+				486BFF1C1F735DD2004566FF /* main */,
+				486BFF241F735DDE004566FF /* View */,
+				486BFF201F735DD8004566FF /* Controller */,
+				486BFF181F735BF6004566FF /* Custom */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* YXLViewController.h */,
-				6003F5A6195388D20070C39A /* YXLViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -406,9 +443,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* YXLAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* YXLViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				486BFF1F1F735DD2004566FF /* YXLAppDelegate.m in Sources */,
+				486BFF231F735DD8004566FF /* YXLViewController.m in Sources */,
+				486BFF1B1F735BF6004566FF /* CustomAlert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,7 +529,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -524,7 +562,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -539,6 +577,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YXLCustomAlertView/YXLCustomAlertView-Prefix.pch";
 				INFOPLIST_FILE = "YXLCustomAlertView/YXLCustomAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -554,6 +593,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YXLCustomAlertView/YXLCustomAlertView-Prefix.pch";
 				INFOPLIST_FILE = "YXLCustomAlertView/YXLCustomAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

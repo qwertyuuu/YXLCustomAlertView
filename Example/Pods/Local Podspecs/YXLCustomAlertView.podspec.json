@@ -1,0 +1,22 @@
+{
+  "name": "YXLCustomAlertView",
+  "version": "0.1.0",
+  "summary": "A short description of YXLCustomAlertView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yangxl/YXLCustomAlertView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yangxl": "895111863@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/yangxl/YXLCustomAlertView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YXLCustomAlertView/Classes/**/*"
+}
